@@ -28,7 +28,10 @@ Keep three things: `profile.md`, `cv-master.md` and `tracker.md` (templates in `
 - **Claude Code / a cloned repo:** save them in `my-data/` at the repo root (git-ignored).
 - **claude.ai with Google Drive connected:** save them in a Drive folder named `Job Radar`.
 - **claude.ai without Drive:** give the user the three files and ask them to add them to a
-  Claude Project's files, so every chat and scheduled run in that Project can read them.
+  Claude Project's files, so every chat in that Project can read them. Project files are
+  read-only to you, so for daily scheduled runs recommend connecting Drive
+  (see `references/scheduling.md`).
+- **ChatGPT:** same idea: Google Drive if connected, otherwise the project's files.
 
 Never commit or publish the user's CV, phone number or ID details anywhere.
 
